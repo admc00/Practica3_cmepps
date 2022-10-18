@@ -1,6 +1,12 @@
 package Practica3_cmepp.core.core.db_driven_adapter.domain;
 
+
 import Practica3_cmepp.core.domain.Book;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 @Entity
 

@@ -1,5 +1,11 @@
 package Practica3_cmepp.core.core.db_driven_adapter;
 
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import Practica3_cmepp.core.core.db_driven_adapter.domain.BookEntity;
 import Practica3_cmepp.core.core.db_driven_adapter.jparepository.HAAJpaRepository;
 import Practica3_cmepp.core.core.driven_ports.BookRepository;
 import Practica3_cmepp.core.domain.Book;
