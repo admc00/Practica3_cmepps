@@ -12,7 +12,7 @@ public class BookEntity {
 	private Long id;
 	@Column(name = "name")
 	private String name;
-	int i;
+	
 	
 	public BookEntity(Long id, String name) {
 		super();
