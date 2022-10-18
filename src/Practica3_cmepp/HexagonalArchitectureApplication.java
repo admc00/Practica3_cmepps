@@ -1,7 +1,8 @@
 package Practica3_cmepp;
 
 import org.springframework.boot.SpringApplication;
-
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+@SpringBootApplication
 public class HexagonalArchitectureApplication {
 
 	public static void main(String[] args) {
